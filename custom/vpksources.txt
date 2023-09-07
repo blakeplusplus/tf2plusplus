@@ -1,0 +1,9 @@
+loadouts.vpk from https://github.com/jooonior/tf2-loadouts-script
+Old Rocket and Sticky Jumper (Casual Edition).vpk from https://gamebanana.com/mods/464509
+ak casual.vpk from https://gamebanana.com/mods/465236
+HalloweentHealthKits.vpk from https://gamebanana.com/mods/401775
+legal_green_overheal.vpk from https://gamebanana.com/mods/422050
+Time Splitter Hands (No Hands) for Casual.vpk from https://gamebanana.com/mods/466233
+disable_wait_for_players.vpk from https://gamebanana.com/mods/448996
+
+czar_setup from my github: https://github.com/czarchasm00/tf2-czettings

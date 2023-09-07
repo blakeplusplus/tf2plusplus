@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture	temp\white
+	$ignorez	1
+}
