@@ -9,17 +9,17 @@ This is a repository featuring my settings and custom setup for TF2.
 
 [Modern Casual Preloader](https://gamebanana.com/wips/79779)
 
-[Altered Explosions & Building FX](https://gamebanana.com/mods/12457)
-[Altered Projectile Trails](https://gamebanana.com/mods/12420)
-[Altered Healing FX](https://gamebanana.com/mods/422308)
-[Altered Fire FX](https://gamebanana.com/mods/289584)
-[Altered Jump Trails + Airblast Deflect](https://gamebanana.com/mods/11896)
-[Altered Short Circuit Effects](https://gamebanana.com/mods/11900)
-[What's Left of Ye](https://gamebanana.com/mods/12374)
-[Altered Bullet Impacts](https://gamebanana.com/mods/12384)
-[AK-47 Default Animation](https://gamebanana.com/mods/465236)
-[Halloween't Health Kits](https://gamebanana.com/mods/401775)
-[Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)
+[Altered Explosions & Building FX](https://gamebanana.com/mods/12457)<br>
+[Altered Projectile Trails](https://gamebanana.com/mods/12420)<br>
+[Altered Healing FX](https://gamebanana.com/mods/422308)<br>
+[Altered Fire FX](https://gamebanana.com/mods/289584)<br>
+[Altered Jump Trails + Airblast Deflect](https://gamebanana.com/mods/11896)<br>
+[Altered Short Circuit Effects](https://gamebanana.com/mods/11900)<br>
+[What's Left of Ye](https://gamebanana.com/mods/12374)<br>
+[Altered Bullet Impacts](https://gamebanana.com/mods/12384)<br>
+[AK-47 Default Animation](https://gamebanana.com/mods/465236)<br>
+[Halloween't Health Kits](https://gamebanana.com/mods/401775)<br>
+[Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
 
 ## czar_setup.vpk
 
