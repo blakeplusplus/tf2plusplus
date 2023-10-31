@@ -17,7 +17,6 @@ This is a repository featuring my settings and custom setup for TF2.
 [Altered Short Circuit Effects](https://gamebanana.com/mods/11900)
 [What's Left of Ye](https://gamebanana.com/mods/12374)
 [Altered Bullet Impacts](https://gamebanana.com/mods/12384)
-[Australium Fixes and Improvements](https://gamebanana.com/mods/440340)
 [AK-47 Default Animation](https://gamebanana.com/mods/465236)
 [Halloween't Health Kits](https://gamebanana.com/mods/401775)
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)
