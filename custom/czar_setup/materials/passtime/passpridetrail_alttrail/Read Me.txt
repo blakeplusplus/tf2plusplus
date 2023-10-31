@@ -1,3 +1,0 @@
-Place this file in the /passtime file and place the other one in here if you want to change the flag trails.
-
--Kibble Bites, 2023
