@@ -7,8 +7,6 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Custom Folder
 
-[Modern Casual Preloader](https://gamebanana.com/wips/79779)
-
 [Altered Explosions & Building FX](https://gamebanana.com/mods/12457)<br>
 [Altered Projectile Trails](https://gamebanana.com/mods/12420)<br>
 [Altered Healing FX](https://gamebanana.com/mods/422308)<br>
@@ -21,10 +19,14 @@ This is a repository featuring my settings and custom setup for TF2.
 [Halloween't Health Kits](https://gamebanana.com/mods/401775)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
 
-## czar_setup.vpk
+## blake_setup.vpk
 
-VPK format is for faster load times.
+VPK format is for faster load times. \
 Contains:
+
+- [Loadouts Script](https://github.com/jooonior/tf2-loadouts-script) without as much bloat. This script uses con_logfile, so other scripts that use it will conflict.
+- [Disable Waiting For Players](https://gamebanana.com/mods/448996).
+- A backup for [No Damage Particles by xCape](https://www.teamfortress.tv/62242/is-it-possible-to-disable-damage-particles). NOT CURRENTLY USED!
 
 ### Crosshairs:
 
@@ -54,7 +56,4 @@ Also contains a custom PASS Time jack reticle from the 4v4 PASS Time Discord.
 
 ### Misc
 
-- [TF2 Loadouts Script v2.1](https://github.com/jooonior/tf2-loadouts-script), but removed some bloat. This script uses con_logfile, so other scripts that use it will conflict.
-- VScripts for [Modern Casual Preloader](https://gamebanana.com/wips/79779) and [Disable Waiting For Players](https://gamebanana.com/mods/448996).
 - Any custom map cfg files.
-- A backup for [No Damage Particles by xCape](https://www.teamfortress.tv/62242/is-it-possible-to-disable-damage-particles). NOT CURRENTLY USED!
