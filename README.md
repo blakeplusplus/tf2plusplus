@@ -7,6 +7,7 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Custom Folder
 
+[PASS Halo Skull](https://gamebanana.com/mods/491646)<br>
 [Altered Explosions & Building FX](https://gamebanana.com/mods/12457)<br>
 [Altered Projectile Trails](https://gamebanana.com/mods/12420)<br>
 [Altered Healing FX](https://gamebanana.com/mods/422308)<br>
@@ -18,6 +19,8 @@ This is a repository featuring my settings and custom setup for TF2.
 [AK-47 Default Animation](https://gamebanana.com/mods/465236)<br>
 [Halloween't Health Kits](https://gamebanana.com/mods/401775)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
+
+VPKs from [Ultimate Mapping Resource Pack](https://tf2maps.net/downloads/ultimate-mapping-resource-pack.510/)<br>
 
 ## blake_setup.vpk
 
