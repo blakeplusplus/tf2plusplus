@@ -55,7 +55,7 @@ Also contains a custom PASS Time jack reticle from the 4v4 PASS Time Discord.
 ### Hitsound/Killsound
 
 - Hitsound is from Quake
-- Killsound is from Celeste; made it myself
+- Killsound is from Celeste; made it myself, available [here](https://gamebanana.com/sounds/72480).
 
 ### Misc
 
