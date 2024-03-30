@@ -20,6 +20,7 @@ This is a repository featuring my settings and custom setup for TF2.
 [AK-47 Default Animation](https://gamebanana.com/mods/465236)<br>
 [Halloween't Health Kits](https://gamebanana.com/mods/401775)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
+[PT Sound Mod](https://github.com/blakeplusplus/p4sstime/blob/main/%5BClient%20Mods%5D/pt-sound-mod.7z)<br>
 
 VPKs from [Ultimate Mapping Resource Pack](https://tf2maps.net/downloads/ultimate-mapping-resource-pack.510/)<br>
 
