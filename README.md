@@ -8,6 +8,7 @@ This is a repository featuring my settings and custom setup for TF2.
 ## Custom Folder
 
 [PASS Halo Skull](https://gamebanana.com/mods/491646)<br>
+[Cellshaded PASS Trail](https://gamebanana.com/mods/11843)<br>
 [Altered Explosions & Building FX](https://gamebanana.com/mods/12457)<br>
 [Altered Projectile Trails](https://gamebanana.com/mods/12420)<br>
 [Altered Healing FX](https://gamebanana.com/mods/422308)<br>
