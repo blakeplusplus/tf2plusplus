@@ -2,7 +2,7 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Launch Options:
 ```
--fullscreen -w 1920 -h 1080 -console -particles 1 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime -nostartupsound
+-fullscreen -w 1920 -h 1080 -console -particles 1 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound
 ```
 
 ## Custom Folder
