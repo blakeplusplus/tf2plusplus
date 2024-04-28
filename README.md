@@ -73,7 +73,7 @@ I recommend using [mastercomfig ultra](https://mastercomfig.com/app/) as a graph
 2. Configure Melies settings:
 - Set /tf/ folder
 - Set Recording Method to SparklyFX
-- Set Output folder to a folder in tf that YOU have created. It cannot create it automatically
+- Set Output folder to a folder that YOU have created. It cannot create it automatically
 - Turn off "Clear events after running" (this will clear your current killstreaks.txt file if you keep it on)
 - Set "Ticks before bookmarks" to 1000 (at least, recommend 1500) and "Ticks after bookmarks" from 250-750. This makes it to where you have plenty of footage to work with
 - Add command "r_cleardecals permanent" to avoid decals from the rest of the demo showing up and adding to clutter. Results in less-busy looking demos
