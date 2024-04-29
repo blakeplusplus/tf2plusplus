@@ -92,7 +92,8 @@ I recommend using [mastercomfig ultra](https://mastercomfig.com/app/) as a graph
 9. Go into TF2 and press F11 to open up SparklyFX menu.
 10. Disable "Auto-pause demo" under recording behavior.
 11. Change FPS to at least 240fps. You can go lower, but it's better to have a higher FPS so you don't have to go back and rerecord any clips. More FPS = recording takes longer.
-12. In TF2's console, type `playdemo first_demo`
-13. Let it run. It should go quickly through the demos, slowing down when it comes time to record your bookmarks.
-14. Once it's done (TF2 is at the main menu or has crashed), check your output folder. It should contain folders named after your bookmarks that contain the video files.
-15. Import into recording software of choice and start editing!
+12. Sign out of Steam Friends by going Offline. I think this is the cause of an issue where recordings will go up in brightness when Steam friend notifications pop up. Unsure though.
+13. In TF2's console, type `playdemo first_demo`
+14. Let it run. It should go quickly through the demos, slowing down when it comes time to record your bookmarks.
+15. Once it's done (TF2 is at the main menu or has crashed), check your output folder. It should contain folders named after your bookmarks that contain the video files.
+16. Import into editing software of choice and start editing!
