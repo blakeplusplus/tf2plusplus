@@ -66,8 +66,7 @@ Also contains a custom PASS Time jack reticle from the 4v4 PASS Time Discord.
 # How To Record Demos for Fragmovies
 
 _Feedback on this is greatly appreciated!_\
-I recommend using [mastercomfig ultra](https://mastercomfig.com/app/) as a graphics setting with the following modifications (after you boot up):\
-```glow_outline_effect_enable 0    // disables glow outline effect around dropped weapons```
+I recommend using [mastercomfig ultra](https://mastercomfig.com/app/) as a graphics setting along with the [PASS Time Recording HUD](https://github.com/blakeplusplus/passtime-recording-hud) I made from m0rehud classic.
 
 1. Download and install [Melies](https://github.com/Mark-Prime/Melies)
 2. Configure Melies settings:
