@@ -14,7 +14,6 @@ This is a repository featuring my settings and custom setup for TF2.
 [Altered Healing FX](https://gamebanana.com/mods/422308)<br>
 [Altered Fire FX](https://gamebanana.com/mods/289584)<br>
 [Altered Jump Trails + Airblast Deflect](https://gamebanana.com/mods/11896)<br>
-[Altered Short Circuit Effects](https://gamebanana.com/mods/11900)<br>
 [What's Left of Ye](https://gamebanana.com/mods/12374)<br>
 [Altered Bullet Impacts](https://gamebanana.com/mods/12384)<br>
 [AK-47 Default Animation](https://gamebanana.com/mods/465236)<br>
