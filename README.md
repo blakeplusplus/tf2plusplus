@@ -7,12 +7,16 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Custom Folder
 
-[PASS Halo Skull](https://gamebanana.com/mods/491646)<br>
+Kinhud (made by kin for 4v4 PASS Time)
+
+[UT2004 Bombing Run Ball](https://gamebanana.com/mods/565623)<br>
 [Cellshaded PASS Trail](https://gamebanana.com/mods/11843)<br>
 [Altered Projectile Trails](https://gamebanana.com/mods/12420)<br>
 [Halloween't Health Kits](https://gamebanana.com/mods/401775)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
 [PT Sound Mod](https://github.com/blakeplusplus/p4sstime/blob/main/%5BClient%20Mods%5D/pt-sound-mod.7z)<br>
+
+Not Included: [ABS MRP](https://tf2maps.net/threads/ultimate-mapping-resource-pack.4674/)
 
 ## blake_setup.vpk
 
@@ -21,7 +25,6 @@ Contains:
 
 - [Loadouts Script](https://github.com/jooonior/tf2-loadouts-script) without as much bloat. This script uses con_logfile, so other scripts that use it will conflict.
 - [Disable Waiting For Players](https://gamebanana.com/mods/448996).
-- A backup for [No Damage Particles by xCape](https://www.teamfortress.tv/62242/is-it-possible-to-disable-damage-particles). NOT CURRENTLY USED!
 
 ### Crosshairs:
 
