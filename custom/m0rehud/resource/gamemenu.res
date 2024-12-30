@@ -3,10 +3,16 @@
 	//====================================================================================================================================================
 	// MAIN MENU BUTTONS
 	//====================================================================================================================================================
-	"Version"
+	"APug"
 	{
-		"label"										""
-		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
+		"label"										"A PUG"
+		"command"									"engine apug"
+		"OnlyAtMenu"								"1"
+	}
+	"BPug"
+	{
+		"label"										"B PUG"
+		"command"									"engine bpug"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
