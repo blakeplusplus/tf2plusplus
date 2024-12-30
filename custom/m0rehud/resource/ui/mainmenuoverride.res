@@ -111,118 +111,11 @@
 		"enabled"									"0"
 	}
 
-	//==================================================================================================================================================
-	// RANK & BADGE
-	//==================================================================================================================================================
-	"RankPanel"
-	{
-		"ControlName"								"CPvPRankPanel"
-		"fieldName"									"RankPanel"
-		"xpos"										"-3"
-		"ypos"										"3"
-		"zpos"										"1"
-		"wide"										"200"
-		"tall"										"43"
-		"visible"									"0"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"0"
-		"matchgroup"								"MatchGroup_Casual_12v12"
-		"show_model"								"0"
-		"show_type"									"1"
-
-		"pin_to_sibling"							"MainMenuAnchor"
-		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-	"RankModelPanel"
-	{
-		"ControlName"								"CPvPRankPanel"
-		"fieldName"									"RankModelPanel"
-		"xpos"										"424"
-		"ypos"										"-415"
-		"zpos"										"2"
-		"wide"										"900"
-		"tall"										"900"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"1"
-		"matchgroup"								"MatchGroup_Casual_12v12"
-		"show_progress"								"0"
-
-		"pin_to_sibling"							"RankPanel"
-		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-	"CycleRankTypeButton"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CycleRankTypeButton"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"130"
-		"tall"										"43"
-		"visible"									"1"
-		"enabled"									"1"
-		"command"									"open_rank_type_menu"
-		"actionsignallevel"							"1"
-		"proportionaltoparent"						"1"
-		"sound_depressed"							"UI/buttonclick.wav"
-
-		"paintbackground"							"0"
-		"paintborder"								"0"
-
-		"alpha"										"0"
-
-		"pin_to_sibling"							"RankPanel"
-	}
-	"NoGCMessage"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NoGCMessage"
-		"xpos"										"-3"	// No clue why this is offset tbh
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"200"
-		"tall"										"17"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"0"
-		"AllCaps"									"1"
-
-		"font"										"Coolvetica16"
-		"fgcolor"									"Red"
-		"labelText"									"No Connection To Steam"
-		"textAlignment"								"west"
-
-		"pin_to_sibling"							"MainMenuAnchor"
-		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-	"NoGCImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"NoGCImage"
-		"xpos"										"0"
-		"ypos"										"5"
-		"zpos"										"-99"
-		"wide"										"40"
-		"tall"										"40"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"gc_dc"
-		"scaleImage"								"1"
-		"proportionaltoparent"						"1"
-		"drawcolor"									"Red"
-
-		"pin_to_sibling"							"NoGCMessage"
-		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
 
 	//==================================================================================================================================================
 	// MAIN MENU BUTTONS
 	//==================================================================================================================================================
+	
 	"Version"
 	{
 		"ControlName"								"EditablePanel"
@@ -233,9 +126,7 @@
 		"wide"										"150"
 		"tall"										"17"
 		"visible"									"0"
-
 		"pin_to_sibling"							"MainMenuAnchor"
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -252,10 +143,8 @@
 			"textAlignment"							"west"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-
 			"paintbackground"						"0"
 			"paintborder"							"0"
-
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"Menu_Accent"
 			"depressedFgColor_override"				"Menu_Accent"
@@ -390,7 +279,7 @@
 
 		"pin_to_sibling"							"Items"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -507,7 +396,7 @@
 
 		"pin_to_sibling"							"Advanced"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -624,7 +513,7 @@
 
 		"pin_to_sibling"							"DemoUI"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -864,7 +753,7 @@
 
 		"pin_to_sibling"							"Mute"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -1079,175 +968,524 @@
 		}
 	}
 
-	//==================================================================================================================================================
-	// FRIENDS LIST
-	//==================================================================================================================================================
-	"Friends"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Friends"
-		"xpos"										"137"
-		"ypos"										"0"
-		"zpos"										"10005"
-		"wide"										"22"
-		"tall"										"19"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols20"
-			"AllCaps"								"0"
-			"textAlignment"							"center"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"paintbackground"						"1"
-			"paintborder"							"0"
-			"roundedcorners"						"0"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"White"
-
-			"defaultBgColor_override"				"TransparentBlack"
-			"armedBgColor_override"					"Menu_Accent"
-			"depressedBgColor_override"				"Menu_Accent"
-		}
-	}
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////MAP MENU//////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	"MOTD_Panel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
-		"xpos"										"rs1"
-		"ypos"										"cs-0.5+65"
-		"zpos"										"11"
-		"wide"										"110"
-		"tall"										"214"
+		"xpos"										"r586"
+		"ypos"										"222"
+		"zpos"										"99"
+		"wide"										"151"
+		"tall"										"132"
 		"visible"									"0"
+		"proportionaltoparent"                       "1"
+        "PaintBackground"                            "1"
+        "PaintBackgroundType"                        "2"
+        "bgcolor_override"                           "0 0 0 255"
 
-		"CloseButton"
+		"MOTD_HeaderContainer"
 		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"CloseButton"
-			"xpos"									"rs1"
-			"ypos"									"0"
-			"zpos"									"1"
-			"wide"									"16"
-			"tall"									"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"Symbols18"
-			"textAlignment"							"center"
-			"labeltext"								"X"
-			"AllCaps"								"1"
-			"Command"								"motd_hide"
-			"actionsignallevel"						"2"
-			"sound_depressed"						"UI/buttonclick.wav"
+			"ControlName"		"EditablePanel"
+			"fieldName"			"MOTD_HeaderContainer"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"300"
+			"tall"				"22"
+			"visible"			"1"
 
-			"paintbackground"						"1"
-			"RoundedCorners"						"0"
-
-			"defaultBgColor_override"				"TransparentLightBlack"
-			"armedBgColor_override"					"TransparentLightBlack"
-			"depressedBgColor_override"				"TransparentLightBlack"
-
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"Menu_Accent"
-			"depressedFgColor_override"				"Menu_Accent"
+			"HeaderLabel"
+			{
+				"ControlName"			"Label"
+				"fieldName"				"HeaderLabel"
+				"font"					"f14"
+				"textAlignment"			"center"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"				
+				"wide"					"500"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"0"
+				"enabled"				"1"
+				"paintbackground" 		"0"
+				"fgcolor_override"		"TanLight"
+				"labelText"				"#TF_OptionCategory_HUD"		
+				"allcaps"				"1"
+			}
+			
+			"HeaderLabelShadow"
+			{
+				"ControlName"			"Label"
+				"fieldName"				"HeaderLabelShadow"
+				"font"					"f14"
+				"textAlignment"			"center"
+				"xpos"					"-1"
+				"ypos"					"-1"
+				"zpos"					"100"						
+				"wide"					"500"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"0"
+				"enabled"				"1"
+				"paintbackground" 		"0"
+				"fgcolor_override"		"Shadow"
+				"labelText"				"#TF_OptionCategory_HUD"		
+				"allcaps"				"1"
+				
+				"pin_to_sibling"		"HeaderLabel"				
+			}		
 		}
-		"FriendsContainer"
+
+		"Map1"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldname"								"FriendsContainer"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"TransparentLightestBlack"
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map1"
+			"xpos"					"-5"
+			"ypos"					"-5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"ARENA 2"
+			"command"				"engine arena2"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"TitleLabel"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"TitleLabel"
-				"xpos"								"0"
-				"ypos"								"0"
-				"wide"								"f0"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"proportionaltoparent"				"1"
-				"use_proportional_insets"			"1"
-				"font"								"Coolvetica14"
-				"labelText"							"#TF_Competitive_Friends"
-				"textAlignment"						"west"
-				"textinsetx"						"3"
-				"fgcolor"							"White"
-				"paintbackground"					"1"
-				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"TransparentLightBlack"
-			}
-			"SteamFriendsList"
-			{
-				"ControlName"						"CSteamFriendsListPanel"
-				"fieldname"							"SteamFriendsList"
-				"xpos"								"rs1"
-				"ypos"								"rs1-2"
-				"zpos"								"500"
-				"wide"								"f2"
-				"tall"								"f20"
-				"visible"							"1"
-				"proportionaltoparent"				"1"
-
-				"paintbackground"					"0"
-				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"0 0 0 255"
-
-				"columns_count"						"1"
-				"inset_x"							"0"
-				"inset_y"							"0"
-				"row_gap"							"2"
-				"column_gap"						"0"
-				"restrict_width"					"0"
-
-				"FriendPanel_KV"
-				{
-					"wide"							"104"
-					"tall"							"20"
-				}
-				"ScrollBar"
-				{
-					"ControlName"					"ScrollBar"
-					"FieldName"						"ScrollBar"
-					"xpos"							"rs1"
-					"ypos"							"0"
-					"tall"							"f0"
-					"wide"							"4"
-					"zpos"							"1000"
-					"nobuttons"						"1"
-					"proportionaltoparent"			"1"
-
-					"Slider"
-					{
-						"fgcolor_override"			"White"
-					}
-				}
-			}
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"MOTD_HeaderContainer"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
-	}
+		
+		"Map2"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map2"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"STONEWORK"	
+			"command"				"engine stonework"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"				
+			
+			"pin_to_sibling"		"Map1"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"Map3"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map3"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"STADIUM"	
+			"command"				"engine stadium"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"				
+			
+			"pin_to_sibling"		"Map2"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"Map4"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map4"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"RUIN"	
+			"command"				"engine ruin"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"						
+			
+			"pin_to_sibling"		"Map3"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"Map5"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map5"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"BOUTIQUE"	
+			"command"				"engine khm5"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"							
+			
+			"pin_to_sibling"		"Map4"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"Map6"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map6"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"18"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"TORII"
+			"command"				"engine torii"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"	
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"Map5"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}		
+
+		"Map7"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map7"
+			"xpos"					"-78"
+			"ypos"					"-5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"MAPLE"
+			"command"				"engine maple"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"MOTD_HeaderContainer"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPLEFT"
+		}
+
+		"Map8"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map8"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"PLEXI"
+			"command"				"engine plexi"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"Map7"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+
+		"Map9"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map9"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"AMSTERDAM"
+			"command"				"engine amsterdam"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"Map8"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+
+		"Map10"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map10"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"MANN DAMM"
+			"command"				"engine manndamm"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"Map9"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+
+		"Map11"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map11"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"COLOSSEUM 2"
+			"command"				"engine colosseum2"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"Map10"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+
+		"Map12"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"Map12"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"68"
+			"tall"					"16"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"GREENHOUSE"
+			"command"				"engine greenhouse"
+			"actionsignallevel"		"2"
+			"font"					"FinisBold10"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"40 40 40 255"
+			"armedBgColor_override"			"255 50 0 255"
+			"depressedBgColor_override"		"255 50 0 255"
+		
+			"defaultFgColor_override"		"white"
+			"armedFgColor_override" 		"0 0 0 255"
+			"depressedFgColor_override" 	"0 0 0 255"
+			
+			"proportionaltoparent"                       "1"
+			"PaintBackground"                            "1"
+			"PaintBackgroundType"                        "2"
+			"bgcolor_override"                           "40 40 40 255"			
+			
+			"pin_to_sibling"		"Map11"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+	}	
 
 	//==================================================================================================================================================
 	// NOTIFICATIONS PANEL

@@ -5,7 +5,7 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"m0rehud 7.2"
+		"label"										""
 		"command"									"engine showconsole; echo m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
 		"OnlyAtMenu"								"1"
 	}
@@ -17,7 +17,7 @@
 	"Create"
 	{
 		"label"										"+"
-		"command"									"OpenCreateMultiplayerGameDialog"
+		"command"									"motd_show"
 	}
 	"Items"
 	{
@@ -26,28 +26,28 @@
 	}
 	"Store"
 	{
-		"label"										"Store"
+		"label"										""
 		"command"									"engine open_store"
 	}
 	"Settings"
 	{
-		"label"										"Settings"
+		"label"										"Options"
 		"command"									"OpenOptionsDialog"
 	}
 	"Advanced"
 	{
-		"label"										"Adv. Settings"
+		"label"										"Advanced"
 		"command"									"opentf2options"
 	}
 	"HUDOptions"
 	{
-		"label"										"HUD Options"
+		"label"										""
 		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
 	}
 	"Workshop"
 	{
-		"label"										"Workshop"
-		"command"									"engine OpenSteamWorkshopDialog"
+		"label"										"Console"
+		"command"									"engine con_enable 1;toggleconsole"
 	}
 	"DemoUI"
 	{
@@ -56,7 +56,7 @@
 	}
 	"Contracker"
 	{
-		"label"										"Contracker"
+		"label"										""
 		"command"									"questlog"
 	}
 	"Quit"
@@ -66,12 +66,6 @@
 		"OnlyAtMenu"								"1"
 	}
 
-	"Friends"
-	{
-		"label"										"k"
-		"command"									"motd_show"
-		"tooltip"									"Friends List"
-	}
 	"Quickplay"
 	{
 		"label"										"n"
@@ -109,7 +103,7 @@
 	}
 	"Achievements"
 	{
-		"label"										"J"
+		"label"										""
 		"command"									"OpenAchievementsDialog"
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
