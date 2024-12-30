@@ -1,0 +1,1 @@
+#base ../../resource/ui/customizations/transparent_viewmodels/transparent_viewmodels.res 
