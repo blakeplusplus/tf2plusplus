@@ -7,7 +7,7 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Custom Folder
 
-Kinhud (made by kin for 4v4 PASS Time)
+I use p4sshud (see releases section), a modified m0rehud focused on improving readability and utility for 4v4 PASS Time.
 
 [UT2004 Bombing Run Ball](https://gamebanana.com/mods/565623)<br>
 [Cellshaded PASS Trail](https://gamebanana.com/mods/11843)<br>
