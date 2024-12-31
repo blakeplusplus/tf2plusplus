@@ -166,10 +166,10 @@
 		"ControlName"								"CTFTeamStatus"
 		"fieldName"									"TeamStatus"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"r25"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"15"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -179,12 +179,12 @@
 		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
-		"team1_base_x"								"c-45"
-		"team1_max_expand"							"150"
+		"team1_base_x"								"c-90"
+		"team1_max_expand"							"180"
 
 		"team2_grow_dir"							"east"
-		"team2_base_x"								"c47"
-		"team2_max_expand"							"150"
+		"team2_base_x"								"c90"
+		"team2_max_expand"							"190"
 
 		"PlayerPanels_KV"
 		{
@@ -213,13 +213,13 @@
 				"ControlName"						"CExLabel"
 				"fieldName"							"PlayerName"
 				"xpos"								"0"
-				"ypos"								"rs1"
+				"ypos"								"rs0.8"
 				"zpos"								"5"
 				"wide"								"f0"
 				"tall"								"6"
 				"visible"							"0"
 				"labelText"							"%playername%"
-				"font"								"VerdanaSmallest"
+				"font"								"arial6" // added via fonts_scheme.res
 				"textinsetx"						"1"
 				"textAlignment"						"west"
 				"bgcolor_override"					"TransparentLightBlack"
@@ -233,10 +233,10 @@
 				"ypos"								"0"
 				"zpos"								"5"
 				"wide"								"o1"
-				"tall"								"f0"
+				"tall"								"p0.8"
 				"visible"							"1"
 				"enabled"							"1"
-				"image"								"../hud/class_scoutred"
+				"image"								"../vgui/class_portraits_scoutblue"
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
