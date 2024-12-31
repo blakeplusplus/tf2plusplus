@@ -19,7 +19,7 @@
 		"dropshadow"								"1"
 		"font"										"m0refont12"
 		"xpos"										"0"
-		"ypos"										"c160"
+		"ypos"										"c140"
 		"zpos"										"3"
 		"wide"										"f"
 		"tall"										"25"

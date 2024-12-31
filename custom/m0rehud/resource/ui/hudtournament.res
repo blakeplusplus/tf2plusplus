@@ -452,7 +452,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentConditionLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"4"
+		"ypos"										"14"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"10"
