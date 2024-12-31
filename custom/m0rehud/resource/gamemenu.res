@@ -47,7 +47,7 @@
 	}
 	"HUDOptions"
 	{
-		"label"										""
+		"label"										"HUD Options"
 		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
 	}
 	"Workshop"
