@@ -10,14 +10,14 @@ This is a repository featuring my settings and custom setup for TF2.
 I use p4sshud (see releases section), a modified m0rehud focused on improving readability and utility for 4v4 PASS Time. \
 I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland.
 
-[Halo 3 SPNKr for Original](https://gamebanana.com/mods/566131) (with Sounds)
-[Halo 3 Katana for Market Gardener](https://gamebanana.com/mods/566489) (with Sound Pack)
+[Halo 3 SPNKr for Original](https://gamebanana.com/mods/566131) (with Sounds)<br>
+[Halo 3 Katana for Market Gardener](https://gamebanana.com/mods/566489) (with Sound Pack)<br>
 [UT2004 Bombing Run Ball](https://gamebanana.com/mods/565623) (with Halloween version)<br>
 [Cellshaded PASS Trail](https://gamebanana.com/mods/11843)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
 [Medic Synth](https://gamebanana.com/mods/494098)<br>
 [Sniping Drone](https://gamebanana.com/mods/506276)<br>
-[Uberdosis](https://gamebanana.com/mods/493144) (Festive variant)<br>
+[Uberdosis](https://gamebanana.com/mods/493144) (Festive variant)
 
 Not Included: [ABS MRP](https://tf2maps.net/threads/ultimate-mapping-resource-pack.4674/)
 
@@ -27,18 +27,18 @@ VPK format is for faster load times. \
 Contains:
 
 - [Loadouts Script](https://github.com/jooonior/tf2-loadouts-script) without as much bloat. This script uses con_logfile, so other scripts that use it will conflict.
-- [Disable Waiting For Players](https://gamebanana.com/mods/448996).
+- [Disable Waiting For Players](https://gamebanana.com/mods/448996)
 - [pt_sound_mod](https://github.com/p4sstime/archive/blob/main/client_mods/pt-sound-mod.7z)
 
 ### Crosshairs:
 
-Sourced from https://mastercomfig.com/app/. Also has Demoman explosions at "Electrocuted Red" and Soldier explosives at "Electrocuted Blue".
+Sourced from https://mastercomfig.com/app/. Also has Demoman explosions at "Electrocuted Red" and Soldier explosives at "Electrocuted Blue". \
 Since mcomfig does not have a "blank" VTF setting, I've put these at the Quake 19 crosshair and then just modified the vtf to be blank:
--Bonk Atomic Punch, Crit A Cola
--Buff Banner, Battalion's Backup, Concheror
--BASE Jumper (Both classes)
--Lunchbox Consumables
--Toolbox, Sapper
+- Bonk Atomic Punch, Crit A Cola
+- Buff Banner, Battalion's Backup, Concheror
+- BASE Jumper (Both classes)
+- Lunchbox Consumables
+- Toolbox, Sapper
 Note that the name of Quake 19's VTF and VMT is not changed.
 
 Since mcomfig also uses the default TF2 crosshairs (which I don't trust to be of great quality), I instead use two crosshairs from [Default VTF Crosshairs Remade](https://gamebanana.com/mods/464818). Specifically, I use the mediccross and circle crosshairs, as those are the ones that I have set to default with mcomfig.
