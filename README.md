@@ -2,13 +2,14 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Launch Options:
 ```
--fullscreen -w 1920 -h 1080 -console -particles 1 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound
+-fullscreen -w 1920 -h 1080 -console -particles 1 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound +exec preloader
 ```
 
 ## Custom Folder
 
 I use p4sshud (see releases section), a modified m0rehud focused on improving readability and utility for 4v4 PASS Time. \
-I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland.
+I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland. \
+I ALSO use [QuickPrecache](https://gamebanana.com/mods/524713) (not included).
 
 [Halo 3 SPNKr for Original](https://gamebanana.com/mods/566131) (with Sounds)<br>
 [Halo 3 Katana for Market Gardener](https://gamebanana.com/mods/566489) (with Sound Pack)<br>
