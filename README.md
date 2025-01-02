@@ -7,14 +7,17 @@ This is a repository featuring my settings and custom setup for TF2.
 
 ## Custom Folder
 
-I use p4sshud (see releases section), a modified m0rehud focused on improving readability and utility for 4v4 PASS Time.
+I use p4sshud (see releases section), a modified m0rehud focused on improving readability and utility for 4v4 PASS Time. \
+I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland.
 
-[UT2004 Bombing Run Ball](https://gamebanana.com/mods/565623)<br>
+[Halo 3 SPNKr for Original](https://gamebanana.com/mods/566131) (with Sounds)
+[Halo 3 Katana for Market Gardener](https://gamebanana.com/mods/566489) (with Sound Pack)
+[UT2004 Bombing Run Ball](https://gamebanana.com/mods/565623) (with Halloween version)<br>
 [Cellshaded PASS Trail](https://gamebanana.com/mods/11843)<br>
-[Altered Projectile Trails](https://gamebanana.com/mods/12420)<br>
-[Halloween't Health Kits](https://gamebanana.com/mods/401775)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
-[PT Sound Mod](https://github.com/blakeplusplus/p4sstime/blob/main/%5BClient%20Mods%5D/pt-sound-mod.7z)<br>
+[Medic Synth](https://gamebanana.com/mods/494098)<br>
+[Sniping Drone](https://gamebanana.com/mods/506276)<br>
+[Uberdosis](https://gamebanana.com/mods/493144) (Festive variant)<br>
 
 Not Included: [ABS MRP](https://tf2maps.net/threads/ultimate-mapping-resource-pack.4674/)
 
@@ -25,6 +28,7 @@ Contains:
 
 - [Loadouts Script](https://github.com/jooonior/tf2-loadouts-script) without as much bloat. This script uses con_logfile, so other scripts that use it will conflict.
 - [Disable Waiting For Players](https://gamebanana.com/mods/448996).
+- [pt_sound_mod](https://github.com/p4sstime/archive/blob/main/client_mods/pt-sound-mod.7z)
 
 ### Crosshairs:
 
@@ -59,7 +63,7 @@ Also contains a custom PASS Time jack reticle from the 4v4 PASS Time Discord.
 # How To Record Demos for Fragmovies
 
 _Feedback on this is greatly appreciated!_\
-I recommend using [mastercomfig ultra](https://mastercomfig.com/app/) as a graphics setting along with the [PASS Time Recording HUD](https://github.com/blakeplusplus/passtime-recording-hud) I made from m0rehud classic.
+I recommend using [mastercomfig ultra](https://mastercomfig.com/app/) as a graphics setting along with the [PASS Time Recording HUD](https://github.com/p4sstime/recording-hud) I made from m0rehud classic.
 
 1. Download and install [Melies](https://github.com/Mark-Prime/Melies)
 2. Configure Melies settings:
