@@ -30,6 +30,7 @@ Contains:
 - [Loadouts Script](https://github.com/jooonior/tf2-loadouts-script) without as much bloat. This script uses con_logfile, so other scripts that use it will conflict.
 - [Disable Waiting For Players](https://gamebanana.com/mods/448996)
 - [pt_sound_mod](https://github.com/p4sstime/archive/blob/main/client_mods/pt-sound-mod.7z)
+- [No After-Match Music](https://gamebanana.com/sounds/33479)
 
 ### Crosshairs:
 
