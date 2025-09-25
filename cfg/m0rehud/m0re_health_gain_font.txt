@@ -1,1 +1,0 @@
-#base ../../resource/ui/customizations/health_gain/hudhealthaccount_under_health.res 

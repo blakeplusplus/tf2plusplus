@@ -1,1 +1,0 @@
-#base ../../resource/ui/customizations/item_meters/hudrocketpack_big.res 

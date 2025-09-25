@@ -1,26 +1,26 @@
-This is a repository featuring my settings and custom setup for TF2.
+This is a repository featuring my settings and custom setup for TF2. \
+If you want to view my config back when I played competitive passtime, you can go [here](https://github.com/blakeplusplus/tf2plusplus/tree/bc4f80fdcfb4c330271d1a216601b14213e304a8).
 
 ## Launch Options:
 ```
--fullscreen -w 1920 -h 1080 -console -particles 1 -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound +exec preloader
+-console -particles 1 -novid -nojoy -nosteamcontroller -nohltv -nostartupsound 
 ```
 
 ## Custom Folder
 
-I use p4sshud (see releases section), a modified m0rehud focused on improving readability and utility for 4v4 PASS Time. \
+I'm on Linux.
+
+I use cueki's [casual preloader](https://github.com/cueki/casual-pre-loader?tab=readme-ov-file#if-you-want-to-run-with-python-linux) via the AUR. Requires [ripdrag](https://github.com/nik012003/ripdrag) to drag and drop if you use a file manager that doesn't support it. \ 
+Install non-bypass mods to custom (like normal), everything else you can just pull from the repo locally while in the program. \
+I use stock m0rehud. \
 I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland. \
-I ALSO use [QuickPrecache](https://gamebanana.com/mods/524713) (not included).
 
 [Halo 3 SPNKr for Original](https://gamebanana.com/mods/566131) (with Sounds)<br>
 [Halo 3 Katana for Market Gardener](https://gamebanana.com/mods/566489) (with Sound Pack)<br>
-[UT2004 Bombing Run Ball](https://gamebanana.com/mods/570355) (with Halloween version)<br>
-[Cellshaded PASS Trail](https://gamebanana.com/mods/11843)<br>
 [Time Splitter Hands (No Hands) for Competitive](https://gamebanana.com/mods/467431)<br>
 [Medic Synth](https://gamebanana.com/mods/494098)<br>
 [Sniping Drone](https://gamebanana.com/mods/506276)<br>
 [Uberdosis](https://gamebanana.com/mods/493144) (Festive variant)
-
-Not Included: [ABS MRP](https://tf2maps.net/threads/ultimate-mapping-resource-pack.4674/)
 
 ## blake_setup.vpk
 
@@ -29,7 +29,6 @@ Contains:
 
 - [Loadouts Script](https://github.com/jooonior/tf2-loadouts-script) without as much bloat. This script uses con_logfile, so other scripts that use it will conflict.
 - [Disable Waiting For Players](https://gamebanana.com/mods/448996)
-- [pt_sound_mod](https://github.com/p4sstime/archive/blob/main/client_mods/pt-sound-mod.7z)
 - [No After-Match Music](https://gamebanana.com/sounds/33479)
 
 ### Crosshairs:
@@ -50,8 +49,6 @@ Affected files in /scripts/:
 - tf_weapon_mechanical_arm.txt
 - tf_weapon_syringegun_medic.txt
 - tf_weapon_medigun.txt
-
-Also contains a custom PASS Time jack reticle from the 4v4 PASS Time Discord.
 
 ### Hitsound/Killsound
 

@@ -1,1 +1,0 @@
-#base ../../resource/ui/customizations/cp_progress/controlpointprogressbar_on.res 
