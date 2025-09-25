@@ -10,10 +10,10 @@ If you want to view my config back when I played competitive passtime, you can g
 
 I'm on Linux.
 
-I use cueki's [casual preloader](https://github.com/cueki/casual-pre-loader?tab=readme-ov-file#if-you-want-to-run-with-python-linux) via the AUR. Requires [ripdrag](https://github.com/nik012003/ripdrag) to drag and drop if you use a file manager that doesn't support it. \ 
+I use cueki's [casual preloader](https://github.com/cueki/casual-pre-loader?tab=readme-ov-file#if-you-want-to-run-with-python-linux) via the AUR. Requires [ripdrag](https://github.com/nik012003/ripdrag) to drag and drop if you use a file manager that doesn't support it. \
 Install non-bypass mods to custom (like normal), everything else you can just pull from the repo locally while in the program. \
 I use stock m0rehud. \
-I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland. \
+I also use mastercomfig Ultra with addons: transparent viewmodels, null canceling movement, no tutorial, disable pyroland.
 
 [Halo 3 SPNKr for Original](https://gamebanana.com/mods/566131) (with Sounds)<br>
 [Halo 3 Katana for Market Gardener](https://gamebanana.com/mods/566489) (with Sound Pack)<br>
